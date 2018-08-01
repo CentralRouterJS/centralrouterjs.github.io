@@ -1,37 +1,45 @@
-## Welcome to GitHub Pages
+[![CentralRouter Logo](https://image.ibb.co/mSKP3z/centralrouter_branding_logo.png)](https://centralrouter.github.io/)
+Fast, modern Data Delivery Network built on top of [NodeJS](http://nodejs.org).
 
-You can use the [editor on GitHub](https://github.com/CentralRouterJS/centralrouterjs.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+## Installation
+Requirements
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+CentralRouter requires Node.js:v8.0.0+ (Linux & Windows & Mac) and a git client.
 
-### Markdown
+Grab the latest release using:
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+```bash
+$ git clone https://github.com/centralrouterjs/centralrouter
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+And install dependencies via:
+```bash
+$ npm install
+```
 
-### Jekyll Themes
+## About the project
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/CentralRouterJS/centralrouterjs.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+Maybe you got the question: what is CentralRouter?
 
-### Support or Contact
+It's a learning project for me, and I'd like to discover more-and-more features from NodeJS.
+While I'm building this, I'm going to work around a DDN which stands for "Data Delivery Network" 
+based on a personal idea to access data from private networks without opening a port for a service, 
+touching a firewall.  
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Feel free to join the project community using the links below.
+
+## Docs & Community
+
+* [Website and Documentation](https://centralrouter.github.io/)
+
+## Testing
+
+Testing is done using [mocha](https://mochajs.org/):
+
+```bash
+$ mocha test
+```
+
+## License
+
+[GPL-3.0](LICENSE)
